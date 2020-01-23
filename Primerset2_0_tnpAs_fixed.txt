@@ -1,0 +1,385 @@
+Assay	Mechanism	Classification
+16S new 2_2	none	housekeeping
+16S old 1_1	none	housekeeping
+A.baumannii_1535	other	taxanomic
+aac(3)-ib_408	deactivate	Aminoglycoside
+aac(3)-id_ie_409	deactivate	Aminoglycoside
+aac(3)-iid_iii_iif_iia_iie_410	deactivate	Aminoglycoside
+aac(3)-Xa_1545	deactivate	Aminoglycoside
+aac(3)-xa_411	deactivate	Aminoglycoside
+aac(6)-Ib_95	deactivate	Aminoglycoside
+aac(6)-ig_413	deactivate	Aminoglycoside
+aac(6)-II_8	deactivate	Aminoglycoside
+aac(6)-iic_414	deactivate	Aminoglycoside
+aac(6)-ij_415	deactivate	Aminoglycoside
+aac(6)-im_417	deactivate	Aminoglycoside
+aac(6)-ir_418	deactivate	Aminoglycoside
+aac(6)-is_iu_ix_419	deactivate	Aminoglycoside
+aac(6)-iv_ih_420	deactivate	Aminoglycoside
+aac(6)-iw_421	deactivate	Aminoglycoside
+aac(6)-Iy_1502	deactivate	Aminoglycoside
+aac(6)-iz_422	deactivate	Aminoglycoside
+aac(6)I1_1501	deactivate	Aminoglycoside
+aac3-Via_1510	deactivate	Aminoglycoside
+aac3ia_400	deactivate	Aminoglycoside
+Aac6-Aph2_412	deactivate	Aminoglycoside
+aacA-aphD_6	deactivate	Aminoglycoside
+aacA43_423	deactivate	Aminoglycoside
+aacC2_3	deactivate	Aminoglycoside
+aadA_99_99	deactivate	Aminoglycoside
+aadA10_426	deactivate	Aminoglycoside
+aadA16_427	deactivate	Aminoglycoside
+aadA17_428	deactivate	Aminoglycoside
+aadA2_167	deactivate	Aminoglycoside
+aadA2_97	deactivate	Aminoglycoside
+aadA5_98	deactivate	Aminoglycoside
+aadA6_424	deactivate	Aminoglycoside
+aadA7_425	deactivate	Aminoglycoside
+aadA9_168	deactivate	Aminoglycoside
+aadB_429	deactivate	Aminoglycoside
+aadD_151	deactivate	Aminoglycoside
+aadE_174	deactivate	Aminoglycoside
+acc3-iva_438	deactivate	Aminoglycoside
+acrA_62	efflux	MDR
+acrB_9	efflux	MDR
+acrF_11	efflux	MDR
+acrR_102	regulator	MDR
+adeA_12	efflux	MDR
+adeI_1578	efflux	MDR
+ampC_1505	deactivate	Beta Lactam
+ampC-blaDHA_112	deactivate	Beta Lactam
+ant4-ib_430	deactivate	Aminoglycoside
+ant6-ia_431	deactivate	Aminoglycoside
+ant6-ib_1541	deactivate	Aminoglycoside
+aph_viii_437	deactivate	Aminoglycoside
+aph(2)-Id_104	deactivate	Aminoglycoside
+aph(3)-ia_435	deactivate	Aminoglycoside
+aph3-ib_432	deactivate	Aminoglycoside
+aph3-III_1540	deactivate	Aminoglycoside
+aph3-viia_433	deactivate	Aminoglycoside
+aph3via_403	deactivate	Aminoglycoside
+aph4-ia_434	deactivate	Aminoglycoside
+aph4ib_402	deactivate	Aminoglycoside
+aph6ia_1503	deactivate	Aminoglycoside
+aph6ic_404	deactivate	Aminoglycoside
+aphA1_170	deactivate	Aminoglycoside
+aphA3_14	deactivate	Aminoglycoside
+apmA_436	deactivate	Aminoglycoside
+ArmA_405	protection	Aminoglycoside
+ARR-3_1542	deactivate	rifamycin
+Arr2_703	deactivate	other
+arsA_1305	efflux	MDR-mobile
+bacA_1500	deactivate	other
+beta_ccra_1104	deactivate	Beta lactamase
+bexA-norM_1504	efflux	MDR
+bl1acc_1107	deactivate	Beta lactamase
+bl3_cpha_1113	bl3_cpha	Beta lactamase
+bla-ACT_1544	deactivate	Beta lactamase
+bla-L1_48	deactivate	Beta Lactam
+bla-SME_1119	deactivate	Beta Lactam
+bla1_39	deactivate	Beta Lactam
+blaACC-1_28	deactivate	Beta Lactam
+"blaB-11,13,14_1114"	deactivate	Beta lactamase
+blaCARB_1120	deactivate	Beta lactamase
+blaCMY_108	deactivate	beta Lactam
+blaCTX-M_162	deactivate	Beta Lactam
+"blaCTX-M-1,3,15_1108"	deactivate	Beta Lactam
+blaFOXnew_1125	deactivate	Beta Lactam
+blaGES_120	deactivate	Beta Lactam
+blaGOB_1121	deactivate	Beta lactamase
+blaHERA_1122	deactivate	Beta lactamase
+blaIMI_1129	deactivate	Beta lactamase
+blaIMIR_1508	regulator	Beta Lactam
+blaIND_1115	deactivate	Beta lactamase
+blaLEN_1116	deactivate	Beta lactamase
+blaMIR_1123	deactivate	Beta lactamase
+blaMOX-blaCMY_34	deactivate	Beta Lactam
+blaOCH_35	deactivate	Beta Lactam
+blaOXA10_1506	deactivate	Beta Lactam
+blaOXY-1_1118	deactivate	Beta lactamase
+blaOXY-2_42	deactivate	Beta Lactam
+blaPAO-PDC_36	deactivate	Beta Lactam
+blaPER_1517	deactivate	Beta Lactam
+blaPSE_43	deactivate	Beta Lactam
+blaROB_41	deactivate	Beta Lactam
+blaSFO_121	deactivate	Beta Lactam
+blaSHV-11_1110	deactivate	Beta Lactam
+blaTEM_1512	deactivate	Beta Lactam
+blaTLA_122	deactivate	Beta Lactam
+blaVEB_38	deactivate	Beta Lactam
+blaVIM_147	deactivate	Beta Lactam
+blaZ_123	deactivate	Beta Lactam
+cadC_1575	other	MDR-mobile
+carB_288	efflux	MLSB
+cat_900	deactivate	Phenicol
+cat(pC221)_908	deactivate	Phenicol_MGE
+catA1_130	deactivate	Amphenicol
+catA2_902	deactivate	Phenicol
+catA3_903	deactivate	Phenicol
+catB2_904	deactivate	Phenicol
+catB3_51	catB3	Amphenicol
+catB8_52	catB8	Amphenicol
+catB9_906	deactivate	Phenicol
+catP_909	deactivate	Phenicol
+catQ_910	deactivate	Phenicol
+cefa_ampc_1105	deactivate	Beta lactamase
+cefa_qacelta_1301	efflux	MDR-mobile
+ceoA_53	efflux	Amphenicol
+cepA_107	deactivate	Beta Lactam
+cfiA_24	deactivate	Beta Lactam
+cfr_277	protection	MLSB
+cfxA_106	deactivate	Beta Lactam
+cmlA1_127	efflux	Amphenicol
+cmlA5_375	efflux	Amphenicol
+cmlV_911	deactivate	Phenicol
+cmr_57	efflux	MDR
+cmx(A)_129	efflux	Amphenicol
+copA_1529	efflux	MDR-mobile
+cphA_46	deactivate	Beta Lactam
+cro_1569	other	MGE
+czcA_1536	efflux	MDR-mobile
+dfrA1_58	protection	other
+dfrA10_607	protection	trimethoprim
+dfrA12_59	protection	other
+dfra14_600	protection	trimethoprim
+dfrA15_608	protection	trimethoprim
+dfra17_601	protection	trimethoprim
+dfrA18_609	protection	trimethoprim
+dfra21_603	protection	trimethoprim
+dfrA22_610	protection	trimethoprim
+dfrA25_611	protection	trimethoprim
+dfrA27_612	protection	trimethoprim
+dfra5_604	protection	trimethoprim
+dfra7_602	protection	trimethoprim
+dfrA8_606	protection	trimethoprim
+dfrAB4_613	protection	trimethoprim
+dfrBmulti_617	protection	trimethoprim
+dfrC_614	protection	trimethoprim
+dfrG_615	protection	trimethoprim
+dfrK_616	protection	trimethoprim
+EAE_05855_1570	other	MGE
+emrB-qacA_156	efflux	MDR
+emrD_64	efflux	MDR
+ere(A)_801	deactivate	MLSB
+ere(B)_802	deactivate	MLSB
+erm(34)_814	protection	MLSB
+erm(35)_815	protection	MLSB
+erm(36)_91	protection	MLSB
+erm(42)_816	protection	MLSB
+erm(A)_803	protection	MLSB
+erm(B)_804	protection	MLSB
+erm(D)_805	protection	MLSB
+erm(E)_806	protection	MLSB
+erm(F)_23	protection	MLSB
+erm(F)_817	protection	MLSB
+erm(G)_807	protection	MLSB
+erm(O)_808	protection	MLSB
+erm(Q)_809	protection	MLSB
+erm(S)_810	protection	MLSB
+ermA-ermTR_283	protection	MLSB
+ermK_17	protection	MLSB
+ermT_137	protection	MLSB
+ermX_209	protection	MLSB
+ermY_270	protection	MLSB
+fabK_1520	protection	other
+fexA_912	efflux	Phenicol
+floR_913	efflux	Amphenicol
+folA_208	protection	Sulfonamide
+fosb_700	deactivate	other
+fosX_702	deactivate	other
+imp-marko_324	deactivate	Beta Lactam
+IncHI2-smr0018_1566	MGE	Plasmid-inc
+IncI1_repI1_1565	MGE	Plasmid-inc
+IncN_korA_1563	MGE	Plasmid-inc
+IncN_oriT_341	MGE	Plasmid-inc 
+IncN_rep_340	MGE	Plasmid-inc 
+IncP_oriT_342	MGE	Plasmid-inc 
+IncQ_oriT_343	MGE	Plasmid-inc
+IncW_trwAB_344	MGE	Plasmid-inc 
+int1-a-marko_336	MGE	Integrase
+intI1F165_clinical_359	MGE	Integrase
+intl2_338	MGE	Integrase
+intl3_1522	MGE	Integrase
+IS1111_376	MGE	Insertional
+IS1133_383	MGE	Insertional
+IS1247_1552	MGE	Insertional
+IS15DI_1562	MGE	Insertional
+IS200_1551	MGE	Insertional
+IS200_1557	MGE	Insertional
+IS21-ISAs29_1558	MGE	Insertional
+IS256_1548	MGE	Insertional
+IS26_1546	MGE	Insertional
+IS3_1547	MGE	Insertional
+IS5-IS1182_1568	MGE	Insertional
+IS6-257_1560	MGE	Insertional
+IS6100_1561	MGE	Insertional
+IS613_26	MGE	Transposase
+IS630_1553	MGE	Insertional
+IS91_1567	MGE	Insertional
+ISAba3-Acineto_371	MGE	Insertional 
+ISCR1_1528	MGE	Insertional
+ISEcp1_1550	MGE	Insertional
+ISEfm1-Entero_372	MGE	Insertional 
+ISPps1-pseud_369	MGE	Insertional 
+ISSm2-Xanthob_370	MGE	Insertional 
+KPC_1523	deactivate	Beta Lactam
+lmrA_77	efflux	MLSB
+lncF_FIC_1564	MGE	Plasmid-inc
+lnu(F)_818	deactivate	MLSB
+lnuA_251	deactivate	MLSB
+lnuB_811	deactivate	MLSB
+lnuC_1519	deactivate	MLSB
+lsa(C)_819	protection	MLSB
+marR_355	regulator	MDR
+mcr-1_704	protection	other
+mcr-2_1543	protection	other
+mdtA_1509	efflux	MDR
+mdtE-yhiU_81	efflux	MDR
+mdtg_1302	efflux	MDR
+mdth_1300	efflux	MDR-chromo
+mecA_155	protection	Beta Lactam
+mef(B)_820	efflux	MLSB
+mefA_1511	efflux	MLSB
+mepA_245	efflux	MDR
+merA-marko_331	other	MDR
+mexA_89	efflux	MDR
+mexB_374	efflux	MDR
+mexE_246	efflux	MDR
+mobA_1524	MGE	plasmid
+mphA_812	deactivate	MLSB
+mphB_141	deactivate	MLSB
+msr(A)_149	efflux	MLSB
+msr(C)_138	protection	MLSB
+msr(D)_823	protection	MLSB
+msr(E)_824	protection	MLSB
+mtrD_253	efflux	MDR
+mtrE_231	efflux	MDR
+multidrug resistance _20	efflux	MDR
+NDM new_362-n2-25-15	deactivate	Beta Lactam
+nimE_152	deactivate	MDR
+nisB_79	deactivate	other
+nonmobile blaBEL_1128	deactivate	Beta lactamase
+nonmobile_blaADC_1127	deactivate	Beta lactamase
+norA_1200	efflux	Fluoroquinolone
+oleC_285	efflux	MLSB
+oprD_234	efflux	MDR
+optrA_1538	protection	Phenicol
+oqxA_1577	efflux	fluoroquinolone
+orf37-IS26_365	MGE	Insertional 
+orf39-IS26_366	MGE	Insertional 
+pAKD1-IncP-1__380	MGE	Plasmid-rep
+PAMBL-1-F_377old_377	MGE	Plasmid-rep
+pbp_154	protection	Beta Lactam
+Pbp5_153	protection	Beta Lactam
+pbrT_1573	efflux	MDR-mobile
+pBS228-IncP-1__381	MGE	Plasmid-rep
+pcoA_1303	deactivate	MDR-mobile
+penA_236	protection	Beta Lactam
+pica_229	protection	MLSB
+pikR2_290	protection	MLSB
+pmrA_239	deactivate	other
+qacA-B_1306	efflux	MDR-mobile
+qacF-H_126	efflux	MDR
+qacF-H_1308	efflux	MDR-mobile
+qacH_351_351	efflux	MDR
+qepA_1_2_1201	efflux	Fluoroquinolone
+qnrA_248	protection	Fluoroquinolone
+qnrB-bob_resign_328-n	efflux	Amphenicol
+QnrB4_1202	protection	Fluoroquinolone
+"qnrB46,47,48_1579"	protection	fluoroquinolone
+qnrD_1574	protection	fluoroquinolone
+QnrS1_S3_S5_1203	protection	Fluoroquinolone
+qnrS2_1576	protection	fluoroquinolone
+QnrVC1_VC3_VC6_1204	protection	Fluoroquinolone
+QnrVC4_VC5_VC7_1205	protection	Fluoroquinolone
+sat4_49	deactivate	Aminoglycoside
+silE_1304	deactivate	MDR-mobile
+spcN_406	deactivate	Aminoglycoside
+spec_aph_407	deactivate	Aminoglycoside
+Staphylococci_1532	protection	taxanomic
+str_175	deactivate	Aminoglycoside
+strA_176	deactivate	Aminoglycoside
+strB_177	protection	Sulfonamide
+sugE_1549	sugE	MDR-mobile
+sul1 NEW_363	protection	Sulfonamide
+sul2_133	protection	Sulfonamide
+sulA-folP_280	protection	Sulfonamide
+sulIII_705	protection	Sulfonamide
+tcrB_1571	efflux	MDR-mobile
+terW_1572	other	MDR-mobile
+tet(32)_54	protection	Tetracycline 
+tet(36)_22	protection	Tetracycline 
+tet(38)_1518	efflux	Tetracycline 
+tet39_505	efflux	tetracycline
+tet40_500	efflux	Tetracycline
+tet44_1539	protection	Tetracycline 
+tetA_180	efflux	Tetracycline 
+tetB_181	efflux	Tetracycline 
+tetbP_294	efflux	tetracycline
+tetC_199	efflux	Tetracycline 
+tetD_501	efflux	Tetracycline 
+tetE_291	efflux	Tetracycline 
+tetG_F_507	efflux	Tetracycline 
+tetH_187	efflux	Tetracycline 
+tetJ_1516	efflux	Tetracycline 
+tetK_184	efflux	Tetracycline 
+tetL_195	efflux	Tetracycline 
+tetM_1513	protection	Tetracycline 
+tetO_192	protection	Tetracycline 
+tetPA_1507	efflux	Tetracycline 
+tetPB_502	efflux	tetracycline
+tetQ_185	protection	Tetracycline 
+"tetR_506, 508"	regulator	Tetracycline 
+tetS_200	protection	Tetracycline 
+tetT_297	protection	Tetracycline 
+tetU_69	unknown	Tetracycline 
+tetW_191	protection	Tetracycline 
+tetX_196	deactivate	Tetracycline 
+Tn3_1559	MGE	Transposase
+TN5_384	MGE	Insertional 
+TN5403_1556	MGE	Transposase
+tnpA-05/IS26_201	MGE	Transposase
+tnpA-04/IS6100_202	MGE	Transposase
+tnpA-02/IS4_203	MGE	Transposase
+tnpA-01/IS21_204	MGE	Transposase
+tnpA-07/ISEcp1B_205	MGE	Transposase
+tnpA-06/IS1216_206	MGE	Transposase
+tnpA-03/IS6_207	MGE	Transposase
+tolC_298	efflux	MDR
+Tp614_25	MGE	Transposase
+tra-A_1526	MGE	plasmid
+traN_1525	MGE	plasmid
+trb-C_1527	MGE	Insertional
+trfa_358	MGE	Transposase
+ttgA_243	efflux	MDR
+ttgB_244	efflux	MDR
+vanA_1514	protection	Vancomycin
+VanB_211	protection	Vancomycin
+vanC_71	protection	Vancomycin
+vanC2-vanC3_1003	protection	Vancomycin
+vanD_213	protection	Vancomycin
+vanG_1002	protection	Vancomycin
+vanHB_215	protection	Vancomycin
+vanHD_214	protection	Vancomycin
+vanRA_216	protection	Vancomycin
+vanRB_306	protection	Vancomycin
+vanRC_307	protection	Vancomycin
+vanRC4_308	protection	Vancomycin
+vanRD_309	protection	Vancomycin
+vanSA_218	protection	Vancomycin
+vanSB_1521	protection	Vancomycin
+vanSC_311	protection	Vancomycin
+vanTC_315	protection	Vancomycin
+vanTE_314	protection	Vancomycin
+vanTG_316	protection	Vancomycin
+vanWB_220	protection	Vancomycin
+vanXA_1515	protection	Vancomycin
+vanXB_223	protection	Vancomycin
+vanYB_317	protection	Vancomycin
+vanYD_318	protection	Vancomycin
+vat(A)_813	deactivate	MLSB
+vat(E)_263	deactivate	MLSB
+vatB_828	deactivate	MLSB
+vga(A)LC_827	protection	MLSB
+vgaA_826	efflux	MLSB
+vgaB_227	efflux	MLSB
