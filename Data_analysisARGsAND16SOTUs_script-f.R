@@ -23,7 +23,7 @@ rm(list=ls())
 
 #Working directory
 
-setwd("~/Library/Mobile Documents/com~apple~CloudDocs/Wafergen")
+setwd("~/Library/Blaah blaa/blaa~blaa~blaa/Wafergen")
 
 #Libraries and packages
 #Before libraries can be loaded, the packages needs to be installed. 
@@ -1166,7 +1166,7 @@ qqp(subset(results_relative_mat.m$value, results_relative_mat.m$Gene_name=="aadA
 
 #--- DATA ---#
 
-setwd("~/Library/Mobile Documents/com~apple~CloudDocs/Wafergen/ZnCu")
+setwd("~/Library/Blaah blaa/blaa~blaa~blaa/Wafergen/ZnCu")
 metadata <- "ZnCu_metadata.txt" #metadata, because the different numbering of the samples,
 # I need to have different metadata file as with ARGs and MGEs
 sharedfile <- "Phylo.tx.1.pick.1.subsample.shared_correctedID.txt" #Phylo table that is subsampled (rarefied)
