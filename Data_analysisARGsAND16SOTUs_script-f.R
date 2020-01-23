@@ -308,7 +308,7 @@ which(all_chips$Assay== "A. baumannii<ca>_1535")
 # (I took the Assays to a separate data frame):
 
 #Assays<-all_chipsII$Assay
-#write.table(Assays,"/Users/johannamuurinen/Library/Mobile Documents/com~apple~CloudDocs/Wafergen/AssaysInR", sep="\t")
+#write.table(Assays,"/Users/blaa/blaa/blaa/blaa~blaa~blaa/Wafergen/AssaysInR", sep="\t")
 
 #and then changed the assay names to all the chip files
 #After this the files need to be imported and processed again.
