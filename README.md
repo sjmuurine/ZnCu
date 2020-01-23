@@ -24,4 +24,4 @@ Included files
     * ARG annotation (Primerset2) (Primerset2_0_tnpAs_fixed.txt)
 3. Data analysis scripts and Rdata that use the mentioned data files
     * Script for data analysis in R (Data_analysisARGsAND16SOTUs_script-f.R)
-    * R data file that can be loaded into R (Rdata_ARGsAND16SOTUs.RData)
+   
