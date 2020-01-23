@@ -8,7 +8,7 @@
 #         R-Script for analyzing Wafergen qPCR array data            #
 #            Author: Johanna Muurinen, data-analysis by              #
 #                         Antti Karkman                              #
-# (https://www.researchgate.net/publication/313181737_Data_analysis) #                                      #
+# (https://www.researchgate.net/publication/313181737_Data_analysis) #                                     
 #                    was used as a template.                         #
 #                                                                    #
 #    Written at Dr. Tim Johnson Lab, Dept. of Animal Sciences,       #
