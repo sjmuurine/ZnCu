@@ -5,7 +5,7 @@ This repository contains supplementary code, data-files and scripts from the pig
 Included files
 1. Sequence clustering shell scripts
     * Scripts that were run on the Purdue University ITaP Research Computing clusters to produce the primary data from Illumina read files
-    * A batch file shell script (ZnCu.batch.txt)
+        * A batch file shell script (ZnCu.batch.txt)
         * Sequences are available at xxxx.xxx.xxx
         * SILVA-based bacterial reference alignment and mothur-formatted version of the RDP training set (v.9) can be downloaded at: https://www.mothur.org/wiki/MiSeq_SOP#OTUs
 2. Data files: 
