@@ -203,19 +203,19 @@ print(Unspecifics)
 
 Pos_negC$Sample_mean<-rep(1, nrow(Pos_negC))  
 Pos_negC<- within(Pos_negC, Sample_mean[Assay=="16S old 1_1"]<-mean(subset(Unspecific_assays$mean, 
-                                                                           Unspecific_assays$Sample!="Sample1-Rep1" & Unspecific_assays$Assay=="16S old 1_1")))
+ Unspecific_assays$Sample!="Sample1-Rep1" & Unspecific_assays$Assay=="16S old 1_1")))
 Pos_negC<- within(Pos_negC, Sample_mean[Assay=="blaOXY-1_1118"]<-mean(subset(Unspecific_assays$mean, 
-                                                                             Unspecific_assays$Sample!="Sample1-Rep1" & Unspecific_assays$Assay=="blaOXY-1_1118")))
+  Unspecific_assays$Sample!="Sample1-Rep1" & Unspecific_assays$Assay=="blaOXY-1_1118")))
 Pos_negC<- within(Pos_negC, Sample_mean[Assay=="cmlV_911"]<-mean(subset(Unspecific_assays$mean, 
-                                                                        Unspecific_assays$Sample!="Sample1-Rep1" & Unspecific_assays$Assay=="cmlV_911")))
+  Unspecific_assays$Sample!="Sample1-Rep1" & Unspecific_assays$Assay=="cmlV_911")))
 Pos_negC<- within(Pos_negC, Sample_mean[Assay=="czcA_1536"]<-mean(subset(Unspecific_assays$mean, 
-                                                                         Unspecific_assays$Sample!="Sample1-Rep1" & Unspecific_assays$Assay=="czcA_1536")))
+  Unspecific_assays$Sample!="Sample1-Rep1" & Unspecific_assays$Assay=="czcA_1536")))
 Pos_negC<- within(Pos_negC, Sample_mean[Assay=="fabK_1520"]<-mean(subset(Unspecific_assays$mean, 
-                                                                         Unspecific_assays$Sample!="Sample1-Rep1" & Unspecific_assays$Assay=="fabK_1520")))
+  Unspecific_assays$Sample!="Sample1-Rep1" & Unspecific_assays$Assay=="fabK_1520")))
 Pos_negC<- within(Pos_negC, Sample_mean[Assay=="intI1F165_clinical_359"]<-mean(subset(Unspecific_assays$mean, 
-                                                                                      Unspecific_assays$Sample!="Sample1-Rep1" & Unspecific_assays$Assay=="intI1F165_clinical_359")))
+   Unspecific_assays$Sample!="Sample1-Rep1" & Unspecific_assays$Assay=="intI1F165_clinical_359")))
 Pos_negC<- within(Pos_negC, Sample_mean[Assay=="tetPA_1507"]<-mean(subset(Unspecific_assays$mean, 
-                                                                          Unspecific_assays$Sample!="Sample1-Rep1" & Unspecific_assays$Assay=="tetPA_1507")))
+   Unspecific_assays$Sample!="Sample1-Rep1" & Unspecific_assays$Assay=="tetPA_1507")))
 
 View(Pos_negC)
 
@@ -223,12 +223,12 @@ View(Pos_negC)
 # positive in all samples except negative control.
 # tetPA was actually positive only in Sample 1 (negative control), so that problem is also
 # solved
-# czcA_1536 had lower Ct values in negative control than samples, so they results of that assay will be
+# czcA_1536 had lower Ct values in negative control than samples, so the results of that assay will be
 # removed. 
 # blaOXY-1_1118, cmlV_911b, intI1F165_clinical_359 and fabK_1520 have lower Ct values in samples than in 
 # the negative control. It is possible that there is unspecific amplification (primer-dimers)
-# if template DNA is not present. But to take it into account that the unspecific amplification 
-# might lower the Ct values of samples I will adjust the Ct values of these assays:
+# if the template DNA is not present. But to take it into account that the unspecific amplification 
+# might lower the Ct values in samples I will adjust the Ct values of these assays:
 
 # I will subtract the Ct values of samples from the mean Ct value in the negative control. Then I'm 
 # going to subtract the result from the cut-off Ct value 27 and use that result as the new Ct value.  
@@ -262,7 +262,7 @@ all_chipsII$help_col2[all_chipsII$help_col2>=27]<-"NA"
 all_chipsII$meanII<-all_chipsII$mean
 # and new mean values for three problematic assays
 all_chipsII<- within(all_chipsII, meanII[Assay=="blaOXY-1_1118"]<-subset(all_chipsII$help_col2, 
-       all_chipsII$Assay=="blaOXY-1_1118"))
+  all_chipsII$Assay=="blaOXY-1_1118"))
 all_chipsII<- within(all_chipsII, meanII[Assay=="cmlV_911"]<-subset(all_chipsII$help_col2, 
   all_chipsII$Assay=="cmlV_911"))
 all_chipsII<- within(all_chipsII, meanII[Assay=="intI1F165_clinical_359"]<-subset(all_chipsII$help_col2, 
@@ -277,7 +277,7 @@ all_chipsII$meanII<-as.numeric(all_chipsII$meanII)
 #Yes, there are NA's
 
 # Next I will remove the results of assay czcA_1536 that had smaller 
-#Ct values in the negative control than in samples. I don't need to remove assays tetPA_1507
+# Ct values in the negative control than in samples. I don't need to remove assays tetPA_1507
 # and 16S old 1_1 because they will drop out along the way. 
 
 toBeRemoved<-which(all_chipsII$Assay=="czcA_1536")
@@ -303,8 +303,8 @@ levels(all_chipsII$Assay)
 which(all_chips$Assay== "A. baumannii<ca>_1535") 
 # I  could not find any logical explanation why "_" was changed into 
 #"<ca>_" in the chip files.
-#So I think the easiest way to fix these is to write a table and open it in Excel,
-#see what is the problem and change the name to something R supports. 
+# So I think the easiest way to fix these is to write a table in R and open it in Excel,
+# see what is the problem and change the name to something R supports. 
 # (I took the Assays to a separate data frame):
 
 #Assays<-all_chipsII$Assay
@@ -313,7 +313,7 @@ which(all_chips$Assay== "A. baumannii<ca>_1535")
 #and then changed the assay names to all the chip files
 #After this the files need to be imported and processed again.
 
-#When all data have been processed, read in the final ARG assay list
+#When all data have been processed, I can read in the final ARG assay list
 #make sure that the assay names in your data files and in the assay list match! 
 Primerset2 <- read.table("Primerset2_0_tnpAs_fixed.txt", header=TRUE, sep="\t")
 
@@ -336,6 +336,7 @@ levels(Primerset2$Classification)
 #[31] "trimethoprim"    "Vancomycin"
 
 which(Primerset2$Mechanism=="sugE")
+
 Primerset2$Mechanism[302]<-"efflux"
 
 which(Primerset2$Mechanism=="bl3_cpha")
@@ -355,7 +356,6 @@ which(Primerset2$Mechanism=="catB3")
 Primerset2[119,]
 
 Primerset2$Mechanism[119]<-"deactivate"
-
 
 which(Primerset2$Mechanism=="other")
 #[1]   3 111 138 159 243 308
@@ -378,8 +378,7 @@ levels(Primerset2$Mechanism)
 #[1] "deactivate" "efflux" "MGE"  "none"  "other" "protection" "regulator"  "unknown" 
 
 
-levels(Primerset2$Classification)<-c(levels(Primerset2$Classification), 
-                                     "Beta-lactam")
+levels(Primerset2$Classification)<-c(levels(Primerset2$Classification),"Beta-lactam")
 
 Primerset2$Classification[Primerset2$Classification=="beta Lactam"]<-"Beta-lactam"
 
@@ -395,30 +394,25 @@ Primerset2$Classification[Primerset2$Classification=="Amphenicol"]<-"Phenicol"
 
 Primerset2$Classification[Primerset2$Classification=="Plasmid-inc "]<-"Plasmid-inc"
 
-levels(Primerset2$Classification)<-c(levels(Primerset2$Classification), 
-                                     "Tetracycline")
+levels(Primerset2$Classification)<-c(levels(Primerset2$Classification), "Tetracycline")
 
-Primerset2$Classification[Primerset2$Classification=="Tetracycline "  ]<-"Tetracycline"  
+Primerset2$Classification[Primerset2$Classification=="Tetracycline "]<-"Tetracycline"  
 
-Primerset2$Classification[Primerset2$Classification=="tetracycline"  ]<-"Tetracycline"  
+Primerset2$Classification[Primerset2$Classification=="tetracycline" ]<-"Tetracycline"  
 
-levels(Primerset2$Classification)<-c(levels(Primerset2$Classification), 
-                                     "Trimethoprim" )
+levels(Primerset2$Classification)<-c(levels(Primerset2$Classification),  "Trimethoprim" )
 
 Primerset2$Classification[Primerset2$Classification=="trimethoprim"]<-"Trimethoprim"  
 
 Primerset2$Classification[Primerset2$Classification=="fluoroquinolone"]<-"Fluoroquinolone"  
 
-levels(Primerset2$Classification)<-c(levels(Primerset2$Classification), 
-                                     "Rifamycin" )
+levels(Primerset2$Classification)<-c(levels(Primerset2$Classification),  "Rifamycin" )
 
 Primerset2$Classification[Primerset2$Classification=="rifamycin"]<-"Rifamycin"  
 
-levels(Primerset2$Classification)<-c(levels(Primerset2$Classification), 
-                                     "Taxonomic" )
+levels(Primerset2$Classification)<-c(levels(Primerset2$Classification), "Taxonomic" )
 
 Primerset2$Classification[Primerset2$Classification=="taxanomic"]<-"Taxonomic"  
-
 
 Primerset2$Classification[Primerset2$Classification=="Phenicol_MGE"]<-"Phenicol"  
 
@@ -426,8 +420,7 @@ Primerset2$Classification[Primerset2$Classification=="MDR-chromo"]<-"MDR"
 
 Primerset2$Classification[Primerset2$Classification=="MDR-mobile"]<-"MDR"  
 
-levels(Primerset2$Classification)<-c(levels(Primerset2$Classification), 
-                                     "Plasmid" )
+levels(Primerset2$Classification)<-c(levels(Primerset2$Classification),  "Plasmid" )
 
 Primerset2$Classification[Primerset2$Classification=="plasmid"]<-"Plasmid"  
 
@@ -437,8 +430,7 @@ Primerset2$Classification[Primerset2$Classification=="Plasmid-rep"]<-"Plasmid"
 
 Primerset2$Classification<-droplevels(Primerset2$Classification)
 
-levels(Primerset2$Classification)<-c(levels(Primerset2$Classification), 
-                                     "Other" )
+levels(Primerset2$Classification)<-c(levels(Primerset2$Classification) "Other" )
 
 Primerset2$Classification[Primerset2$Classification=="other"]<-"Other"  
 
@@ -477,7 +469,7 @@ allResults <- merge(all_chipsII, Primerset2, by="Assay")
 
 #Now I have all Ct values in one dataframe with the annotation of 
 #the different assays. Next I will make a matrix of the results 
-#that can be used to make e.g. ordination plots in vegan. 
+#that can be used to make e.g. ordination plots with vegan package. 
 
 #I will combine all mean values to a matrix. 
 #Rows are samples and colums assays. 
@@ -508,8 +500,8 @@ plot(result_mat[,2:3], main="1st 16S vs. 2nd 16S")
 plot(result_mat[,2], main="1st 16S (new)")
 plot(result_mat[,3], main="2nd 16S (old)")
 
-#Seems that the first 16S is a good choice for normalization
-#plus there was no unspecific amplification like in the second 16S.
+#Seems that the new 16S is a good choice for normalization
+#plus there was no unspecific amplification like in the old 16S.
 #so we’ll use "the new" to calculate the deltaCt.
 #outliers do not really play a role since our quantification is
 #relative
