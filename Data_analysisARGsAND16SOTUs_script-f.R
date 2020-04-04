@@ -918,7 +918,7 @@ ggplot(MGEClass_pie_unigII, aes(x="", y=n_class, fill=Classification))+
 #Now I know something about the data. Before I start to do statistical analyses,
 # I need to check that certain assumptions are met.
 #I try to follow the protocol by Zuur et al when ever possible.
-#https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/j.2041-210X.2009.00001.
+#https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.2041-210X.2009.00001.x
 
 # I want to start from ***INDEPENDENCE***, since it is the most important assumption:
 
